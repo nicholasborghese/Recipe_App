@@ -1,0 +1,143 @@
+body{
+    background-image: url("/assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: darkgreen;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navitem{
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+}
+
+.navitem:hover{
+    background-color: white;
+    color: darkslateblue;
+}
+
+.sign{
+    background-color: aliceblue;
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding: 5px;
+    align-self: flex-end;
+}
+
+.foot{
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-left: 5px;
+    z-index: 100%;
+    margin-top: 10px;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.firstfill{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img{
+    width: 20%;
+}
+
+.options{
+    text-align: center;
+}
+
+.form2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ing{
+    order: 1;
+    margin-right: 5px;
+}
+
+.diet{
+    order: 2;
+    margin-right: 5px;
+}
+
+.mealtype{
+    order: 3;
+    margin-right: 5px;
+}
+
+.submit2{
+    order: 4;
+}
+
+.results{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3)
+}
+
+.resitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.resultimg{
+    order: 1;
+    border-right: solid;
+    border-color: red;
+    margin-right: 5px;
+}
+
+.resultname{
+    order: 2;
+    border-right: solid;
+    border-color: red;
+    margin-right: 5px;
+}
+
+.resulting{
+    order: 3;
+    border-right: solid;
+    border-color: red;
+}
+
+.calories{
+    order: 4;
+}
+
+@media only screen and (max-width: 450){
+    .form2{
+        flex-direction: column;
+    }
+}
