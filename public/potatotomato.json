@@ -1,0 +1,1132 @@
+{
+  "q": "potato,tomato",
+  "from": 0,
+  "to": 10,
+  "params": {
+    "sane": [],
+    "q": [
+      "potato,tomato"
+    ],
+    "app_key": [
+      "f2ffd2b455eeb1725bd1e1f7b2cc3128"
+    ],
+    "app_id": [
+      "05d666d"
+    ]
+  },
+  "more": true,
+  "count": 14455,
+  "hits": [
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_5abc6bda0e39f14bb21741dfa080a3fa",
+        "label": "Annie's Potato & Tomato Bake",
+        "image": "https://www.edamam.com/web-img/3f6/3f690113f7e2372d5071c505394980f3.jpg",
+        "source": "BBC Good Food",
+        "url": "http://www.bbcgoodfood.com/recipes/2866/",
+        "shareAs": "http://www.edamam.com/recipe/annie-s-potato-tomato-bake-5abc6bda0e39f14bb21741dfa080a3fa/potato%2Ctomato",
+        "yield": 4,
+        "dietLabels": [
+          "High-Fiber",
+          "Low-Sodium"
+        ],
+        "healthLabels": [
+          "Vegan",
+          "Vegetarian",
+          "Dairy-Free",
+          "Gluten-Free",
+          "Egg-Free",
+          "Peanut-Free",
+          "Tree-Nut-Free",
+          "Soy-Free",
+          "Fish-Free",
+          "Shellfish-Free"
+        ],
+        "cautions": [],
+        "ingredientLines": [
+          "750.0g tomatoes",
+          "750.0g even-sized potatoes , such as Desirée or Maris Piper",
+          "4-5 tbsp olive oil"
+        ],
+        "ingredients": [
+          {
+            "text": "750.0g tomatoes",
+            "quantity": 7.5,
+            "measure": "gram",
+            "food": "tomatoes",
+            "weight": 750
+          },
+          {
+            "text": "750.0g even-sized potatoes , such as Desirée or Maris Piper",
+            "quantity": 7.5,
+            "measure": "gram",
+            "food": "potatoes",
+            "weight": 750
+          },
+          {
+            "text": "4-5 tbsp olive oil",
+            "quantity": 4.5,
+            "measure": "tablespoon",
+            "food": "olive oil",
+            "weight": 60.75
+          }
+        ],
+        "calories": 1249.5300000000002,
+        "totalWeight": 1560.75
+      },
+      "bookmarked": false,
+      "bought": false
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_c2c1fdd827bd1ef7b271bc0d037a4574",
+        "label": "Potato-Tomato-Avocado Tango",
+        "image": "https://www.edamam.com/web-img/094/094dd74f323b5e3a484af52a23c679b3.JPG",
+        "source": "Food52",
+        "url": "https://food52.com/recipes/17859-potato-tomato-avocado-tango",
+        "shareAs": "http://www.edamam.com/recipe/potato-tomato-avocado-tango-c2c1fdd827bd1ef7b271bc0d037a4574/potato%2Ctomato",
+        "yield": 2,
+        "dietLabels": [
+          "High-Fiber"
+        ],
+        "healthLabels": [
+          "Vegan",
+          "Vegetarian",
+          "Dairy-Free",
+          "Gluten-Free",
+          "Egg-Free",
+          "Peanut-Free",
+          "Tree-Nut-Free",
+          "Soy-Free",
+          "Fish-Free",
+          "Shellfish-Free"
+        ],
+        "cautions": [
+          "Sulfites"
+        ],
+        "ingredientLines": [
+          "2 medium yukon gold potatoes, steamed, chilled and cut into 1/2? cubes",
+          "Small handful fresh basil, chopped",
+          "1 flavorful tomato (i used a yellow heirloom called tangerine), cut into 1/2? cubes, chunks of seeds discarded",
+          "1-2 tablespoon chopped shallot",
+          "1 avocado, cut into 1/2? cubes (do this just before putting salad together)",
+          "1-2 garlic cloves, minced (if 1, make sure its large)",
+          "1/4 cup extra-virgin olive oil",
+          "2 tablespoons (maybe more) fresh lemon juice",
+          "Salt and pepper"
+        ],
+        "ingredients": [
+          {
+            "text": "2 medium yukon gold potatoes, steamed, chilled and cut into 1/2? cubes",
+            "quantity": 2,
+            "measure": "<unit>",
+            "food": "yukon gold potatoes",
+            "weight": 426
+          },
+          {
+            "text": "Small handful fresh basil, chopped",
+            "quantity": 1,
+            "measure": "handful",
+            "food": "fresh basil",
+            "weight": 9
+          },
+          {
+            "text": "1 flavorful tomato (i used a yellow heirloom called tangerine), cut into 1/2? cubes, chunks of seeds discarded",
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "tomato",
+            "weight": 123
+          },
+          {
+            "text": "1-2 tablespoon chopped shallot",
+            "quantity": 1.5,
+            "measure": "tablespoon",
+            "food": "shallot",
+            "weight": 15
+          },
+          {
+            "text": "1 avocado, cut into 1/2? cubes (do this just before putting salad together)",
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "avocado",
+            "weight": 201
+          },
+          {
+            "text": "1-2 garlic cloves, minced (if 1, make sure its large)",
+            "quantity": 1.5,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 4.5
+          },
+          {
+            "text": "1/4 cup extra-virgin olive oil",
+            "quantity": 2.5,
+            "measure": "cup",
+            "food": "extra-virgin olive oil",
+            "weight": 54
+          },
+          {
+            "text": "2 tablespoons (maybe more) fresh lemon juice",
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "lemon juice",
+            "weight": 28
+          },
+          {
+            "text": "Salt and pepper",
+            "quantity": 0,
+            "measure": null,
+            "food": "Salt",
+            "weight": 5.163
+          },
+          {
+            "text": "Salt and pepper",
+            "quantity": 0,
+            "measure": null,
+            "food": "pepper",
+            "weight": 2.5815
+          }
+        ],
+        "calories": 1181.3345650000003,
+        "totalWeight": 868.1294835559627
+      },
+      "bookmarked": false,
+      "bought": false
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_ad9cf93ea7734cd81a7d22133c2391f7",
+        "label": "Potato, Tomato And Pea Curry",
+        "image": "https://www.edamam.com/web-img/1f8/1f870c3a39eb6c01fe4893268342a764.jpg",
+        "source": "Cook Almost Anything",
+        "url": "http://cookalmostanything.blogspot.com/2006/10/weekend-herb-blogging-53.html",
+        "shareAs": "http://www.edamam.com/recipe/potato-tomato-and-pea-curry-ad9cf93ea7734cd81a7d22133c2391f7/potato%2Ctomato",
+        "yield": 7,
+        "dietLabels": [
+          "Low-Fat",
+          "Low-Sodium"
+        ],
+        "healthLabels": [
+          "Vegan",
+          "Vegetarian",
+          "Dairy-Free",
+          "Gluten-Free",
+          "Egg-Free",
+          "Peanut-Free",
+          "Tree-Nut-Free",
+          "Soy-Free",
+          "Fish-Free",
+          "Shellfish-Free"
+        ],
+        "cautions": [
+          "FODMAP"
+        ],
+        "ingredientLines": [
+          "500 g Kipfler potatoes, peeled and sliced in half, lengthways",
+          "500 g tomatoes, seeded and roughly chopped",
+          "150 g peas, fresh or frozen",
+          "1 x large red onion, finely sliced",
+          "1 x long red chilli, seeded and finely chopped",
+          "1 tsp cumin seeds",
+          "1 tsp ground coriander",
+          "1 tsp turmeric",
+          "1 tsp madras curry powder",
+          "fresh coriander leaves, to serve"
+        ],
+        "ingredients": [
+          {
+            "text": "500 g Kipfler potatoes, peeled and sliced in half, lengthways",
+            "quantity": 5,
+            "measure": "gram",
+            "food": "potatoes",
+            "weight": 500
+          },
+          {
+            "text": "500 g tomatoes, seeded and roughly chopped",
+            "quantity": 5,
+            "measure": "gram",
+            "food": "tomatoes",
+            "weight": 500
+          },
+          {
+            "text": "150 g peas, fresh or frozen",
+            "quantity": 1.5,
+            "measure": "gram",
+            "food": "peas",
+            "weight": 150
+          },
+          {
+            "text": "1 x large red onion, finely sliced",
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "red onion",
+            "weight": 150
+          },
+          {
+            "text": "1 x long red chilli, seeded and finely chopped",
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "red chilli",
+            "weight": 45
+          },
+          {
+            "text": "1 tsp cumin seeds",
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "cumin seeds",
+            "weight": 2.1
+          },
+          {
+            "text": "1 tsp ground coriander",
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "coriander",
+            "weight": 1.8
+          },
+          {
+            "text": "1 tsp turmeric",
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "turmeric",
+            "weight": 3
+          },
+          {
+            "text": "1 tsp madras curry powder",
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "curry powder",
+            "weight": 2
+          }
+        ],
+        "calories": 703.599,
+        "totalWeight": 1353.8999999999999
+      },
+      "bookmarked": false,
+      "bought": false
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_cb7e99134bb715afe94e2a1483af1b88",
+        "label": "Red Potato & Tomato Gratin With Leeks, Gruyère & Rosemary",
+        "image": "https://www.edamam.com/web-img/382/3821a79f1ffe8dafcaec6eee2855a329.jpg",
+        "source": "Fine Cooking",
+        "url": "http://www.finecooking.com/recipes/potato_tomato_gratin.aspx",
+        "shareAs": "http://www.edamam.com/recipe/red-potato-tomato-gratin-with-leeks-gruy%C3%A8re-rosemary-cb7e99134bb715afe94e2a1483af1b88/potato%2Ctomato",
+        "yield": 6,
+        "dietLabels": [
+          "Balanced"
+        ],
+        "healthLabels": [
+          "Vegetarian",
+          "Egg-Free",
+          "Peanut-Free",
+          "Tree-Nut-Free",
+          "Soy-Free",
+          "Fish-Free",
+          "Shellfish-Free"
+        ],
+        "cautions": [
+          "Sulfites"
+        ],
+        "ingredientLines": [
+          "1-3/4 cups grated Gruyère cheese",
+          "3 cups sliced leeks (about 3 large, white and pale green parts only), washed thoroughly",
+          "1/2 tsp. kosher salt; more for boiling the potatoes",
+          "1/2 tsp. kosher salt",
+          "1-1/2 Tbs. olive oil",
+          "1 tsp. chopped fresh rosemary",
+          "2/3 cup fresh breadcrumbs mixed with 2 tsp.olive oil",
+          "Freshly ground black pepper to taste",
+          "1-1/4 lb. red potatoes, unpeeled, cut into 1/4-inch slices",
+          "2 tsp. chopped fresh rosemary",
+          "1-1/4 lb. ripe tomatoes, cored and cut into 1/4-inch slices"
+        ],
+        "ingredients": [
+          {
+            "text": "1-3/4 cups grated Gruyère cheese",
+            "quantity": 1.75,
+            "measure": "cup",
+            "food": "Gruyère cheese",
+            "weight": 231
+          },
+          {
+            "text": "3 cups sliced leeks (about 3 large, white and pale green parts only), washed thoroughly",
+            "quantity": 3,
+            "measure": "cup",
+            "food": "leeks",
+            "weight": 267
+          },
+          {
+            "text": "1/2 tsp. kosher salt; more for boiling the potatoes",
+            "quantity": 5,
+            "measure": "teaspoon",
+            "food": "potatoes",
+            "weight": 1.5625000000792517
+          },
+          {
+            "text": "1/2 tsp. kosher salt",
+            "quantity": 5,
+            "measure": "teaspoon",
+            "food": "kosher salt",
+            "weight": 2.4270833334564377
+          },
+          {
+            "text": "1-1/2 Tbs. olive oil",
+            "quantity": 1.5,
+            "measure": "tablespoon",
+            "food": "olive oil",
+            "weight": 20.25
+          },
+          {
+            "text": "1 tsp. chopped fresh rosemary",
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "fresh rosemary",
+            "weight": 0.7
+          },
+          {
+            "text": "2/3 cup fresh breadcrumbs mixed with 2 tsp.olive oil",
+            "quantity": 6.666666507720947,
+            "measure": "cup",
+            "food": "fresh breadcrumbs",
+            "weight": 72
+          },
+          {
+            "text": "Freshly ground black pepper to taste",
+            "quantity": 0,
+            "measure": null,
+            "food": "black pepper",
+            "weight": 5.190961525000607
+          },
+          {
+            "text": "1-1/4 lb. red potatoes, unpeeled, cut into 1/4-inch slices",
+            "quantity": 1.25,
+            "measure": "pound",
+            "food": "red potatoes",
+            "weight": 566.9904625
+          },
+          {
+            "text": "2 tsp. chopped fresh rosemary",
+            "quantity": 2,
+            "measure": "teaspoon",
+            "food": "fresh rosemary",
+            "weight": 1.4
+          },
+          {
+            "text": "1-1/4 lb. ripe tomatoes, cored and cut into 1/4-inch slices",
+            "quantity": 1.25,
+            "measure": "pound",
+            "food": "tomatoes",
+            "weight": 566.9904625
+          }
+        ],
+        "calories": 2096.2450454278123,
+        "totalWeight": 1735.5114698585362
+      },
+      "bookmarked": false,
+      "bought": false
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_f99f0876de70c6b6c7f214927b78f723",
+        "label": "Potato, Tomato, Corn and Basil Salad",
+        "image": "https://www.edamam.com/web-img/11e/11e033485ef537d9465b6f62b2759ef0.jpg",
+        "source": "Cooking Channel",
+        "url": "http://www.cookingchanneltv.com/recipes/dave-lieberman/potato-tomato-corn-and-basil-salad.html",
+        "shareAs": "http://www.edamam.com/recipe/potato-tomato-corn-and-basil-salad-f99f0876de70c6b6c7f214927b78f723/potato%2Ctomato",
+        "yield": 6,
+        "dietLabels": [
+          "High-Fiber"
+        ],
+        "healthLabels": [
+          "Vegan",
+          "Vegetarian",
+          "Dairy-Free",
+          "Gluten-Free",
+          "Egg-Free",
+          "Peanut-Free",
+          "Tree-Nut-Free",
+          "Soy-Free",
+          "Fish-Free",
+          "Shellfish-Free"
+        ],
+        "cautions": [
+          "Sulfites"
+        ],
+        "ingredientLines": [
+          "1 pound baby red potatoes, scrubbed",
+          "5 medium ears of corn (about 3 pounds)",
+          "1 pint grape tomatoes, halved lengthwise",
+          "1 small red onion, peeled and sliced thinly (about 1/2 to 3/4 cup)",
+          "1 large bunch fresh basil, rinsed, dried, and leaves picked",
+          "1/4 cup extra-virgin olive oil",
+          "2 large lemons, juiced",
+          "1 teaspoon kosher salt",
+          "About 15 grinds freshly ground pepper"
+        ],
+        "ingredients": [
+          {
+            "text": "1 pound baby red potatoes, scrubbed",
+            "quantity": 1,
+            "measure": "pound",
+            "food": "red potatoes",
+            "weight": 453.59237
+          },
+          {
+            "text": "5 medium ears of corn (about 3 pounds)",
+            "quantity": 3,
+            "measure": "pound",
+            "food": "ears of corn",
+            "weight": 1360.77711
+          },
+          {
+            "text": "1 pint grape tomatoes, halved lengthwise",
+            "quantity": 1,
+            "measure": "pint",
+            "food": "grape tomatoes",
+            "weight": 349.99999999999994
+          },
+          {
+            "text": "1 small red onion, peeled and sliced thinly (about 1/2 to 3/4 cup)",
+            "quantity": 6.25,
+            "measure": "cup",
+            "food": "red onion",
+            "weight": 75
+          },
+          {
+            "text": "1 large bunch fresh basil, rinsed, dried, and leaves picked",
+            "quantity": 1,
+            "measure": "bunch",
+            "food": "fresh basil",
+            "weight": 62.5
+          },
+          {
+            "text": "1/4 cup extra-virgin olive oil",
+            "quantity": 2.5,
+            "measure": "cup",
+            "food": "extra-virgin olive oil",
+            "weight": 54
+          },
+          {
+            "text": "2 large lemons, juiced",
+            "quantity": 2,
+            "measure": "<unit>",
+            "food": "lemons",
+            "weight": 145
+          },
+          {
+            "text": "1 teaspoon kosher salt",
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "kosher salt",
+            "weight": 4.854166666912875
+          },
+          {
+            "text": "About 15 grinds freshly ground pepper",
+            "quantity": 1.5,
+            "measure": "<unit>",
+            "food": "ground pepper",
+            "weight": 4.5
+          }
+        ],
+        "calories": 1686.0535212900002,
+        "totalWeight": 2510.223646666913
+      },
+      "bookmarked": false,
+      "bought": false
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_b2053da1cda37a3a3e9fb01b8e4165f1",
+        "label": "Warm Potato-Tomato Salad with Dijon Vinaigrette",
+        "image": "https://www.edamam.com/web-img/f5a/f5ad3405a39d7e75f063e6fb975762be.jpg",
+        "source": "Cookstr",
+        "url": "http://www.cookstr.com/recipes/warm-potato-tomato-salad-with-dijon-vinaigrette",
+        "shareAs": "http://www.edamam.com/recipe/warm-potato-tomato-salad-with-dijon-vinaigrette-b2053da1cda37a3a3e9fb01b8e4165f1/potato%2Ctomato",
+        "yield": 6,
+        "dietLabels": [
+          "High-Fiber"
+        ],
+        "healthLabels": [
+          "Vegan",
+          "Vegetarian",
+          "Dairy-Free",
+          "Gluten-Free",
+          "Egg-Free",
+          "Peanut-Free",
+          "Tree-Nut-Free",
+          "Soy-Free",
+          "Fish-Free",
+          "Shellfish-Free"
+        ],
+        "cautions": [],
+        "ingredientLines": [
+          "3 tablespoons Dijon mustard",
+          "2 tablespoons red wine vinegar",
+          "½ teaspoon sea salt, preferably gray salt",
+          "½ cup extra virgin olive oil",
+          "Freshly ground black pepper",
+          "2 pounds Yukon Gold potatoes, skin on, cut into 1-inch chunks",
+          "2 cups diced tomato, skin on, including seeds and juice",
+          "½ cup finely minced red onion",
+          "2 teaspoons finely minced fresh tarragon"
+        ],
+        "ingredients": [
+          {
+            "text": "3 tablespoons Dijon mustard",
+            "quantity": 3,
+            "measure": "tablespoon",
+            "food": "Dijon mustard",
+            "weight": 45
+          },
+          {
+            "text": "2 tablespoons red wine vinegar",
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "red wine vinegar",
+            "weight": 29.8
+          },
+          {
+            "text": "½ teaspoon sea salt, preferably gray salt",
+            "quantity": 5,
+            "measure": "teaspoon",
+            "food": "salt",
+            "weight": 3
+          },
+          {
+            "text": "½ cup extra virgin olive oil",
+            "quantity": 5,
+            "measure": "cup",
+            "food": "extra virgin olive oil",
+            "weight": 108
+          },
+          {
+            "text": "Freshly ground black pepper",
+            "quantity": 0,
+            "measure": null,
+            "food": "black pepper",
+            "weight": 4.96255422
+          },
+          {
+            "text": "2 pounds Yukon Gold potatoes, skin on, cut into 1-inch chunks",
+            "quantity": 2,
+            "measure": "pound",
+            "food": "Yukon Gold potatoes",
+            "weight": 907.18474
+          },
+          {
+            "text": "2 cups diced tomato, skin on, including seeds and juice",
+            "quantity": 2,
+            "measure": "cup",
+            "food": "diced tomato",
+            "weight": 480
+          },
+          {
+            "text": "½ cup finely minced red onion",
+            "quantity": 5,
+            "measure": "cup",
+            "food": "red onion",
+            "weight": 80
+          },
+          {
+            "text": "2 teaspoons finely minced fresh tarragon",
+            "quantity": 2,
+            "measure": "teaspoon",
+            "food": "fresh tarragon",
+            "weight": 1.2
+          }
+        ],
+        "calories": 1810.7102608922,
+        "totalWeight": 1659.14729422
+      },
+      "bookmarked": false,
+      "bought": false
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_b15d9d8d91a20083c35da1ab279ef986",
+        "label": "Summer Squash, Potato & Tomato Gratin",
+        "image": "https://www.edamam.com/web-img/7e9/7e91f83bc7d44979760598f7daeca9c0.jpg",
+        "source": "San Francisco Gate",
+        "url": "http://www.sfgate.com/food/recipes/detail.html?rid=18331&sorig=qs",
+        "shareAs": "http://www.edamam.com/recipe/summer-squash-potato-tomato-gratin-b15d9d8d91a20083c35da1ab279ef986/potato%2Ctomato",
+        "yield": 8,
+        "dietLabels": [],
+        "healthLabels": [
+          "Gluten-Free",
+          "Egg-Free",
+          "Peanut-Free",
+          "Tree-Nut-Free",
+          "Soy-Free",
+          "Fish-Free",
+          "Shellfish-Free"
+        ],
+        "cautions": [
+          "Sulfites"
+        ],
+        "ingredientLines": [
+          "1 1/2 teaspoon kosher salt + more as needed",
+          "3/4 teaspoon black pepper",
+          "1 1/2 teaspoon chopped fresh or generous 1/3 teaspoon dried thyme, crumbled",
+          "1 pound russet potatoes, about 2 potatoes",
+          "3 ounces Gruyere, grated, about 1 cup",
+          "1/2 pound lean sausage, in bulk or removed from the casing",
+          "-- Large pinch smoked paprika, to taste",
+          "-- Large pinch cayenne pepper, to taste",
+          "1 teaspoon olive oil + more as needed",
+          "1 small yellow onion (about 8 ounces), very thinly sliced, about 1/2 cup",
+          "1 to 1 1/2 teaspoons minced garlic, about 2 cloves",
+          "1 to 1 1/4 pounds summer squash, such as patty pan",
+          "1 teaspoon chopped parsley (optional)",
+          "1/2 cup whole milk",
+          "1 pound tomatoes (see Note), about 2 large tomatoes"
+        ],
+        "ingredients": [
+          {
+            "text": "1 1/2 teaspoon kosher salt + more as needed",
+            "quantity": 1.5,
+            "measure": "teaspoon",
+            "food": "kosher salt",
+            "weight": 7.2812500003693135
+          },
+          {
+            "text": "3/4 teaspoon black pepper",
+            "quantity": 7.5,
+            "measure": "teaspoon",
+            "food": "black pepper",
+            "weight": 2.175
+          },
+          {
+            "text": "1 1/2 teaspoon chopped fresh or generous 1/3 teaspoon dried thyme, crumbled",
+            "quantity": 1.5,
+            "measure": "teaspoon",
+            "food": "dried thyme",
+            "weight": 1.5
+          },
+          {
+            "text": "1 pound russet potatoes, about 2 potatoes",
+            "quantity": 1,
+            "measure": "potato",
+            "food": "potatoes",
+            "weight": 213
+          },
+          {
+            "text": "3 ounces Gruyere, grated, about 1 cup",
+            "quantity": 3,
+            "measure": "ounce",
+            "food": "Gruyere",
+            "weight": 85.048569375
+          },
+          {
+            "text": "1/2 pound lean sausage, in bulk or removed from the casing",
+            "quantity": 5,
+            "measure": "pound",
+            "food": "sausage",
+            "weight": 226.796185
+          },
+          {
+            "text": "-- Large pinch smoked paprika, to taste",
+            "quantity": 1,
+            "measure": "pinch",
+            "food": "smoked paprika",
+            "weight": 0.1770833335608735
+          },
+          {
+            "text": "-- Large pinch cayenne pepper, to taste",
+            "quantity": 1,
+            "measure": "pinch",
+            "food": "cayenne pepper",
+            "weight": 0.5625
+          },
+          {
+            "text": "1 teaspoon olive oil + more as needed",
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "olive oil",
+            "weight": 4.5
+          },
+          {
+            "text": "1 small yellow onion (about 8 ounces), very thinly sliced, about 1/2 cup",
+            "quantity": 8,
+            "measure": "ounce",
+            "food": "yellow onion",
+            "weight": 226.796185
+          },
+          {
+            "text": "1 to 1 1/2 teaspoons minced garlic, about 2 cloves",
+            "quantity": 1.25,
+            "measure": "teaspoon",
+            "food": "cloves",
+            "weight": 2.625
+          },
+          {
+            "text": "1 to 1 1/4 pounds summer squash, such as patty pan",
+            "quantity": 1.125,
+            "measure": "pound",
+            "food": "summer squash",
+            "weight": 510.29141625
+          },
+          {
+            "text": "1/2 cup whole milk",
+            "quantity": 5,
+            "measure": "cup",
+            "food": "whole milk",
+            "weight": 122
+          },
+          {
+            "text": "1 pound tomatoes (see Note), about 2 large tomatoes",
+            "quantity": 1,
+            "measure": "pound",
+            "food": "tomatoes",
+            "weight": 453.59237
+          }
+        ],
+        "calories": 1544.385397269392,
+        "totalWeight": 1853.9645179185375
+      },
+      "bookmarked": false,
+      "bought": false
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_8a45f0e8785d6c7e1531d380ddc2b982",
+        "label": "Colombian Chicken Stew With Potatoes, Tomato, and Onion Recipe",
+        "image": "https://www.edamam.com/web-img/005/00506512544c234171d9972d375d521d.jpg",
+        "source": "Serious Eats",
+        "url": "http://www.seriouseats.com/recipes/2012/05/colombian-chicken-stew-with-potatoes-tomato-onion-recipe.html",
+        "shareAs": "http://www.edamam.com/recipe/colombian-chicken-stew-with-potatoes-tomato-and-onion-recipe-8a45f0e8785d6c7e1531d380ddc2b982/potato%2Ctomato",
+        "yield": 4,
+        "dietLabels": [
+          "High-Fiber"
+        ],
+        "healthLabels": [
+          "Dairy-Free",
+          "Gluten-Free",
+          "Egg-Free",
+          "Peanut-Free",
+          "Tree-Nut-Free",
+          "Soy-Free",
+          "Fish-Free",
+          "Shellfish-Free"
+        ],
+        "cautions": [],
+        "ingredientLines": [
+          "4 large Russet or Yukon Gold potatoes, peeled and cut into 1- to 2-inch chunks",
+          "1 large onion, sliced into 1/4-inch slices (about 1 1/2 cups)",
+          "4 medium beefsteak tomatoes, cut into 1- to 2-inch chunks (about 3 cups)",
+          "1 whole chicken, back removed, cut into 8 pieces (about 4 pounds), or 4 whole chicken legs, cut into thighs and drumsticks",
+          "2 bay leaves",
+          "Kosher salt and freshly ground black pepper"
+        ],
+        "ingredients": [
+          {
+            "text": "4 large Russet or Yukon Gold potatoes, peeled and cut into 1- to 2-inch chunks",
+            "quantity": 4,
+            "measure": "<unit>",
+            "food": "Yukon Gold potatoes",
+            "weight": 852
+          },
+          {
+            "text": "1 large onion, sliced into 1/4-inch slices (about 1 1/2 cups)",
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "onion",
+            "weight": 150
+          },
+          {
+            "text": "4 medium beefsteak tomatoes, cut into 1- to 2-inch chunks (about 3 cups)",
+            "quantity": 4,
+            "measure": "<unit>",
+            "food": "beefsteak tomatoes",
+            "weight": 492
+          },
+          {
+            "text": "1 whole chicken, back removed, cut into 8 pieces (about 4 pounds), or 4 whole chicken legs, cut into thighs and drumsticks",
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "chicken legs",
+            "weight": 344
+          },
+          {
+            "text": "2 bay leaves",
+            "quantity": 2,
+            "measure": "<unit>",
+            "food": "bay leaves",
+            "weight": 1.2
+          },
+          {
+            "text": "Kosher salt and freshly ground black pepper",
+            "quantity": 0,
+            "measure": null,
+            "food": "Kosher salt",
+            "weight": 0
+          },
+          {
+            "text": "Kosher salt and freshly ground black pepper",
+            "quantity": 0,
+            "measure": null,
+            "food": "black pepper",
+            "weight": 5.5176
+          }
+        ],
+        "calories": 1558.3651759999998,
+        "totalWeight": 1844.7176
+      },
+      "bookmarked": false,
+      "bought": false
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_d0f781fadb67ae9859abedfebcd72bcc",
+        "label": "Warm Potato-Tomato Salad with Dijon Vinaigrette",
+        "image": "https://www.edamam.com/web-img/085/0857d454bce105f1a083ebb24b1ad84f.jpg",
+        "source": "Cooking Channel",
+        "url": "http://www.cookingchanneltv.com/recipes/michael-chiarello/warm-potato-tomato-salad-with-dijon-vinaigrette.html",
+        "shareAs": "http://www.edamam.com/recipe/warm-potato-tomato-salad-with-dijon-vinaigrette-d0f781fadb67ae9859abedfebcd72bcc/potato%2Ctomato",
+        "yield": 6,
+        "dietLabels": [
+          "High-Fiber"
+        ],
+        "healthLabels": [
+          "Vegan",
+          "Vegetarian",
+          "Dairy-Free",
+          "Gluten-Free",
+          "Egg-Free",
+          "Peanut-Free",
+          "Tree-Nut-Free",
+          "Soy-Free",
+          "Fish-Free",
+          "Shellfish-Free"
+        ],
+        "cautions": [],
+        "ingredientLines": [
+          "1/2 cup finely minced red onion",
+          "3 tablespoons dijon mustard",
+          "3 tablespoons red wine vinegar, divided",
+          "1/2 teaspoon sea salt",
+          "Freshly ground black pepper",
+          "1/2 cup extra-virgin olive oil",
+          "1 teaspoon finely minced fresh tarragon leaves",
+          "2 pounds yukon gold potatoes, skin on, cut into 1-inch chunks",
+          "2 cups diced tomato, skin on, including seeds and juice"
+        ],
+        "ingredients": [
+          {
+            "text": "1/2 cup finely minced red onion",
+            "quantity": 5,
+            "measure": "cup",
+            "food": "red onion",
+            "weight": 80
+          },
+          {
+            "text": "3 tablespoons dijon mustard",
+            "quantity": 3,
+            "measure": "tablespoon",
+            "food": "dijon mustard",
+            "weight": 45
+          },
+          {
+            "text": "3 tablespoons red wine vinegar, divided",
+            "quantity": 3,
+            "measure": "tablespoon",
+            "food": "red wine vinegar",
+            "weight": 44.7
+          },
+          {
+            "text": "1/2 teaspoon sea salt",
+            "quantity": 5,
+            "measure": "teaspoon",
+            "food": "sea salt",
+            "weight": 2.4270833334564377
+          },
+          {
+            "text": "Freshly ground black pepper",
+            "quantity": 0,
+            "measure": null,
+            "food": "black pepper",
+            "weight": 5.00373547000037
+          },
+          {
+            "text": "1/2 cup extra-virgin olive oil",
+            "quantity": 5,
+            "measure": "cup",
+            "food": "extra-virgin olive oil",
+            "weight": 108
+          },
+          {
+            "text": "1 teaspoon finely minced fresh tarragon leaves",
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "fresh tarragon",
+            "weight": 0.6
+          },
+          {
+            "text": "2 pounds yukon gold potatoes, skin on, cut into 1-inch chunks",
+            "quantity": 2,
+            "measure": "pound",
+            "food": "yukon gold potatoes",
+            "weight": 907.18474
+          },
+          {
+            "text": "2 cups diced tomato, skin on, including seeds and juice",
+            "quantity": 2,
+            "measure": "cup",
+            "food": "diced tomato",
+            "weight": 480
+          }
+        ],
+        "calories": 1811.874625829701,
+        "totalWeight": 1672.9155588034569
+      },
+      "bookmarked": false,
+      "bought": false
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_9e5a48f2806eac66e737a363321e7165",
+        "label": "Herb-Roasted Whole Branzino with Potatoes, Tomatoes, and Olives",
+        "image": "https://www.edamam.com/web-img/c5c/c5c46c9ae2491906adefebf7e9689d0d.jpg",
+        "source": "Bon Appetit",
+        "url": "http://www.bonappetit.com/recipe/herb-roasted-whole-branzino-with-potatoes-tomatoes-and-olives",
+        "shareAs": "http://www.edamam.com/recipe/herb-roasted-whole-branzino-with-potatoes-tomatoes-and-olives-9e5a48f2806eac66e737a363321e7165/potato%2Ctomato",
+        "yield": 4,
+        "dietLabels": [
+          "High-Protein",
+          "Low-Carb"
+        ],
+        "healthLabels": [
+          "Dairy-Free",
+          "Gluten-Free",
+          "Egg-Free",
+          "Peanut-Free",
+          "Soy-Free",
+          "Shellfish-Free"
+        ],
+        "cautions": [
+          "Sulfites"
+        ],
+        "ingredientLines": [
+          "Nonstick vegetable oil spray",
+          "1 1/4 pounds russet potatoes, peeled, cut crosswise into 1/4-inch-thick rounds",
+          "2 1/2 tablespoons extra-virgin olive oil, divided",
+          "1 teaspoon minced fresh thyme",
+          "2 13- to 14-ounce branzino (loup de mer) or striped bass, scaled, gutted",
+          "6 fresh marjoram sprigs",
+          "4 thin lemon slices, halved",
+          "1/4 cup dry white wine",
+          "1/4 cup water",
+          "2 teaspoons fresh lemon juice",
+          "12 whole kalamata olives",
+          "12 cherry tomatoes, halved",
+          "2 tablespoons pine nuts, toasted",
+          "Fleur de sel"
+        ],
+        "ingredients": [
+          {
+            "text": "Nonstick vegetable oil spray",
+            "quantity": 0,
+            "measure": null,
+            "food": "vegetable oil",
+            "weight": 150.72522495667366
+          },
+          {
+            "text": "1 1/4 pounds russet potatoes, peeled, cut crosswise into 1/4-inch-thick rounds",
+            "quantity": 1.25,
+            "measure": "pound",
+            "food": "russet potatoes",
+            "weight": 566.9904625
+          },
+          {
+            "text": "2 1/2 tablespoons extra-virgin olive oil, divided",
+            "quantity": 2.5,
+            "measure": "tablespoon",
+            "food": "extra-virgin olive oil",
+            "weight": 33.75
+          },
+          {
+            "text": "1 teaspoon minced fresh thyme",
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "fresh thyme",
+            "weight": 0.8
+          },
+          {
+            "text": "2 13- to 14-ounce branzino (loup de mer) or striped bass, scaled, gutted",
+            "quantity": 2,
+            "measure": "<unit>",
+            "food": "striped bass",
+            "weight": 10000
+          },
+          {
+            "text": "6 fresh marjoram sprigs",
+            "quantity": 6,
+            "measure": "sprig",
+            "food": "marjoram",
+            "weight": 4.08
+          },
+          {
+            "text": "4 thin lemon slices, halved",
+            "quantity": 4,
+            "measure": "<unit>",
+            "food": "lemon",
+            "weight": 116
+          },
+          {
+            "text": "1/4 cup dry white wine",
+            "quantity": 2.5,
+            "measure": "cup",
+            "food": "dry white wine",
+            "weight": 56.5
+          },
+          {
+            "text": "1/4 cup water",
+            "quantity": 2.5,
+            "measure": "cup",
+            "food": "water",
+            "weight": 59.25
+          },
+          {
+            "text": "2 teaspoons fresh lemon juice",
+            "quantity": 2,
+            "measure": "teaspoon",
+            "food": "lemon juice",
+            "weight": 10.166666667182332
+          },
+          {
+            "text": "12 whole kalamata olives",
+            "quantity": 1.2000000476837158,
+            "measure": "<unit>",
+            "food": "kalamata olives",
+            "weight": 38.400000000000006
+          },
+          {
+            "text": "12 cherry tomatoes, halved",
+            "quantity": 1.2000000476837158,
+            "measure": "<unit>",
+            "food": "cherry tomatoes",
+            "weight": 180
+          },
+          {
+            "text": "2 tablespoons pine nuts, toasted",
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "pine nuts",
+            "weight": 16.8
+          },
+          {
+            "text": "Fleur de sel",
+            "quantity": 0,
+            "measure": null,
+            "food": "Fleur de sel",
+            "weight": 0
+          }
+        ],
+        "calories": 12062.378920658775,
+        "totalWeight": 11233.462354123854
+      },
+      "bookmarked": false,
+      "bought": false
+    }
+  ]
+}

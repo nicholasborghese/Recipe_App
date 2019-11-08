@@ -43,53 +43,21 @@
 </form>
 
 <div class="results">
-    <div class="resitem">
-        <img class="resultimg" src="https://placehold.it/100/100" alt="100 x 100">
-        <h4 class="resultname">Name of Plate</h4>
-        <p class="resulting">Ingredients blahblah</p>
-        <p class="calories">Calories: 900000000000</p>
-    </div>
-
-    <div class="resitem">
-        <img class="resultimg" src="https://placehold.it/100/100" alt="100 x 100">
-        <h4 class="resultname">Name of Plate</h4>
-        <p class="resulting">Ingredients blahblah</p>
-        <p class="calories">Calories: 900000000000</p>
-    </div>
-
-    <div class="resitem">
-        <img class="resultimg" src="https://placehold.it/100/100" alt="100 x 100">
-        <h4 class="resultname">Name of Plate</h4>
-        <p class="resulting">Ingredients blahblah</p>
-        <p class="calories">Calories: 900000000000</p>
-    </div>
-
-    <div class="resitem">
-        <img class="resultimg" src="https://placehold.it/100/100" alt="100 x 100">
-        <h4 class="resultname">Name of Plate</h4>
-        <p class="resulting">Ingredients blahblah</p>
-        <p class="calories">Calories: 900000000000</p>
-    </div>
-
-    <div class="resitem">
-        <img class="resultimg" src="https://placehold.it/100/100" alt="100 x 100">
-        <h4 class="resultname">Name of Plate</h4>
-        <p class="resulting">Ingredients blahblah</p>
-        <p class="calories">Calories: 900000000000</p>
-    </div>
-
-    <div class="resitem">
-        <img class="resultimg" src="https://placehold.it/100/100" alt="100 x 100">
-        <h4 class="resultname">Name of Plate</h4>
-        <p class="resulting">Ingredients blahblah</p>
-        <p class="calories">Calories: 900000000000</p>
-    </div>
-    <div class="resitem">
-        <img class="resultimg" src="https://placehold.it/100/100" alt="100 x 100">
-        <h4 class="resultname">Name of Plate</h4>
-        <p class="resulting">Ingredients blahblah</p>
-        <p class="calories">Calories: 900000000000</p>
-    </div>
+    {{#each this.model.hits as |recipe|}}
+        <div class="resitem">
+            <img class="resultimg" src={{recipe.recipe.image}} alt="100 x 100">
+            <h4 class="resultname">{{recipe.recipe.label}}</h4>
+            <p class="resulting">Ingredients: 
+                <ul>
+                    {{#each recipe.recipe.ingredientLines as |ingredient|}}
+                        <li>{{ingredient}}</li>
+                    {{/each}}
+                </ul>
+                {{!-- {{recipe.recipe.ingredientLines}} --}}
+            </p>
+            <p class="calories">Calories: {{round-calories recipe.recipe.calories}}</p>
+        </div>
+    {{/each}}
 </div>
 
 {{outlet}}
