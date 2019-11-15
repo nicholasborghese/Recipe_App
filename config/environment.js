@@ -49,6 +49,8 @@ module.exports = function(environment) {
 
   try{
     const custom = require('./custom-config');
+    ENV.edamam_app_key = custom.config.edamam_app_key;
+    ENV.edamam_app_id = custom.config.edamam_app_id;
     ENV.firebase = custom.config.firebase;
   } catch(err){
     console.log('config/custom-config.js not found');

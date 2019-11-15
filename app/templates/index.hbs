@@ -2,7 +2,8 @@
 <img src="/assets/closed.jpg" alt="closed fridge" class="img">
 <form class="firstfill">
     <p class="options"><label for="ing">Ingredients: </label></p>
-        <input type="text" placeholder="chicken, rice, cucumber..." id="ing">
+    <Input @value={{term}} @placeholder="chicken, rice, cucumber..." id="ing"/>
+    {{!-- <input type="text" placeholder="chicken, rice, cucumber..." id="ing"> --}}
     
     <p class="options"><label for="allergies">Allergies: </label></p>
         <select id="allergies">
@@ -33,6 +34,8 @@
             <option>Dinner</option>
         </select>
     
-    <p><input type="submit" value="GO" class="submit"></p>
+    <p><button type="button" {{action "submit" term}}>Search</button></p>
 </form>
 </div>
+
+{{outlet}}
