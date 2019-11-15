@@ -1,0 +1,7 @@
+{{#if session.isAuthenticated}}
+    {{#if model.favorites}}
+        <button class="unsave" {{action "unsave"}}>Unsave</button>
+    {{else}}
+        <button class="save" {{action "save"}}>Save</button>
+    {{/if}}
+{{/if}}

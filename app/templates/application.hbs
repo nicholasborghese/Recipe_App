@@ -1,9 +1,15 @@
 <nav class="navbar">
     <a href="/" class="navitem">Home</a>
     <a href="results" class="navitem">About</a>
+    <a href="details" class="navitem">Details Dummy</a>
     <a href="favorites" class="navitem">Favorites</a>
-    <button class="sign">Sign in</button>
-</nav>
+
+{{#if session.isAuthenticated}}
+  Logged in as {{ session.data.authenticated.user.displayName }}
+  <button class="sign-out-button" {{action "logout"}}>Sign out</button>
+{{else}}
+  <button class="sign-in-button" {{action "login"}}>Sign in with Google</button>
+{{/if}}</nav>
 
 <footer class="foot">Footer</footer>
 

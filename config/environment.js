@@ -47,5 +47,12 @@ module.exports = function(environment) {
     // here you can enable a production-specific feature
   }
 
+  try{
+    const custom = require('./custom-config');
+    ENV.firebase = custom.config.firebase;
+  } catch(err){
+    console.log('config/custom-config.js not found');
+  }
+
   return ENV;
 };
