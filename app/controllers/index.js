@@ -1,10 +1,21 @@
 import Controller from '@ember/controller';
 
 export default Controller.extend({
+  health: null,
+  diet: null,
+  cookTime: null,
   actions: {
+    changeHealth(selected) {
+      this.set('health', selected)
+    },
+    changeDiet(selected) {
+      this.set('diet', selected)
+    },
+    changeCookTime(selected) {
+      this.set('cookTime', selected)
+    },
     submit(search) {
-      debugger;
-      this.transitionToRoute('results', {queryParams: {q: search}})
+      this.transitionToRoute('results', {queryParams: {q: search, health: this.health, diet: this.diet, time: this.cookTime}})
     }
   }
 });

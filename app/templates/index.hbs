@@ -3,36 +3,34 @@
 <form class="firstfill">
     <p class="options"><label for="ing">Ingredients: </label></p>
     <Input @value={{term}} @placeholder="chicken, rice, cucumber..." id="ing"/>
-    {{!-- <input type="text" placeholder="chicken, rice, cucumber..." id="ing"> --}}
     
-    <p class="options"><label for="allergies">Allergies: </label></p>
-        <select id="allergies">
-            <option value="">--Select--</option>
-            <option>dummy1</option>
-            <option>dummy2</option>
-            <option>dummy3</option>
-            <option>dummy4</option>
-            <option>dummy5</option>
-        </select>
+    <p class="options"><label for="allergies">Health Restrictions: </label></p>
+    <select id="allergies" onchange={{action "changeHealth" value="target.value"}}>
+        <option selected>--Select--</option>
+        <option value="vegan">Vegan</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="sugar-conscious">Sugar Conscious</option>
+        <option value="peanut-free">Peanut Free</option>
+        <option value="tree-nut-free">Tree-nut Free</option>
+        <option value="alcohol-free">Alcohol Free</option>
+    </select>
     
     <p class="options"><label for="diet">Diet: </label></p>
-        <select id="diet">
-            <option>--Select--</option>
-            <option>dummy1</option>
-            <option>dummy2</option>
-            <option>dummy3</option>
-            <option>dummy4</option>
-            <option>dummy5</option>
-        </select>
+    <select id="diet" onchange={{action "changeDiet" value="target.value"}}>
+        <option selected>--Select--</option>
+        <option value="balanced">Balanced</option>
+        <option value="high-protein">High Protein</option>
+        <option value="low-fat">Low Fat</option>
+        <option value="low-carb">Low Carb</option>
+    </select>
     
-    <p class="options"><label for="mealtype">Meal Type: </label></p>
-        <select id="mealtype">
-            <option>--Select--</option>
-            <option>Breakfast</option>
-            <option>Brunch</option>
-            <option>Lunch</option>
-            <option>Dinner</option>
-        </select>
+    <p class="options"><label for="mealtype">Cook Time: </label></p>
+    <select id="mealtype" onchange={{action "changeCookTime" value="target.value"}}>
+        <option selected disabled>--Select--</option>
+        <option value="1-30">1-30 mins</option>
+        <option value="31-120">31-120 mins</option>
+        <option value="121%2B">121+ mins</option>
+    </select>
     
     <p><button type="button" {{action "submit" term}}>Search</button></p>
 </form>
