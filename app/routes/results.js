@@ -32,39 +32,5 @@ export default Route.extend({
       .then(function(response) {
         return response.json();
       });
-
-
-    // if(params.health) {
-    //   if(params.diet) {
-    //     if(params.time) {
-    //       return fetch(`https://api.edamam.com/search?&app_key=${ENV.edamam_app_key}&app_id=${ENV.edamam_app_id}&q=${params.q}&health=${params.health}&diet=${params.diet}&time=${params.time}`)
-    //         .then(function(response) {
-    //           return response.json();
-    //         });
-    //     } else {
-    //       return fetch "HEALTH AND DIET"
-    //     }
-    //   } else if(params.time) {
-    //     "HEALTH AND TIME"
-    //   } else {
-    //     "HEALTH"
-    //   }
-    // } else if(params.diet) {
-    //   if(params.time) {
-    //     "DIET AND TIME"
-    //   } else {
-    //     "DIET"
-    //   }
-    // } else if(params.time){
-    //   "TIME"
-    // }
-    
-    
-    // else {
-    //   return fetch(`https://api.edamam.com/search?&app_key=${ENV.edamam_app_key}&app_id=${ENV.edamam_app_id}&q=${params.q}`)
-    //     .then(function(response) {
-    //       return response.json();
-    //     });
-    // }
   }
 });
