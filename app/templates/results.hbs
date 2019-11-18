@@ -2,57 +2,53 @@
     <ul class="formtwo">
     <li>
         <div class="ing">
-            <label for="ing" class="options">Ingredients: </label>
-            <input type="text" id="ing">
+            <label for="ing">Ingredients: </label>
+            <Input @value={{term}} @placeholder="chicken, rice, cucumber..." id="ing"/>
         </div>
     </li>
 
     <li>
         <div class="allergies">
-        <label for="allergies" class="options">Allergies:
-            <select id="allergies">
-                <option value="">--Select--</option>
-                <option>dummy1</option>
-                <option>dummy2</option>
-                <option>dummy3</option>
-                <option>dummy4</option>
-                <option>dummy5</option>
-            </select>       
-        </label>
+            <label for="allergies">Allergies: </label>
+            <select id="allergies" onchange={{action "changeHealth" value="target.value"}}>
+                <option selected>--Select--</option>
+                <option value="vegan">Vegan</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="sugar-conscious">Sugar Conscious</option>
+                <option value="peanut-free">Peanut Free</option>
+                <option value="tree-nut-free">Tree-nut Free</option>
+                <option value="alcohol-free">Alcohol Free</option>
+            </select>
         </div>
     </li>
     
     <li>
         <div class="diet">
-        <label for="diet" class="options">Diet
-            <select id="diet">
-                <option>--Select--</option>
-                <option>diet1</option>
-                <option>diet2</option>
-                <option>diet3</option>
-                <option>diet4</option>
-                <option>diet5</option>
+            <label for="diet">Diet: </label>
+            <select id="diet" onchange={{action "changeDiet" value="target.value"}}>
+                <option selected>--Select--</option>
+                <option value="balanced">Balanced</option>
+                <option value="high-protein">High Protein</option>
+                <option value="low-fat">Low Fat</option>
+                <option value="low-carb">Low Carb</option>
             </select>
-        </label>
         </div>
     </li>
 
     <li>
         <div class="mealtype">
-        <label for="mealtype" class="options">Meal Type:
-            <select id="mealtype">
-                <option>--Select--</option>
-                <option>Breakfast</option>
-                <option>Brunch</option>
-                <option>Lunch</option>
-                <option>Dinner</option>
-            </select>
-        </label>
+        <label for="mealtype">Meal Type: </label>
+        <select id="mealtype" onchange={{action "changeCookTime" value="target.value"}}>
+            <option selected disabled>--Select--</option>
+            <option value="1-30">1-30 mins</option>
+            <option value="31-120">31-120 mins</option>
+            <option value="121%2B">121+ mins</option>
+        </select>
         </div>
     </li>
 
     <li>
-        <input type="submit" value="GO" class="submit2"> 
+        <button type="button" class="submit2" {{action "submit" term}}>Search</button>
     </li>   
     </ul>
 </form>

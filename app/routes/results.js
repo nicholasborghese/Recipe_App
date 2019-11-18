@@ -3,6 +3,20 @@ import fetch from 'fetch';
 import ENV from 'finalpro/config/environment';
 
 export default Route.extend({
+  queryParams: {
+    q: {
+      refreshModel: true
+    },
+    health: {
+      refreshModel: true
+    },
+    diet: {
+      refreshModel: true
+    },
+    time: {
+      refreshModel: true
+    }
+  },
   model(params) {
     // return fetch('/potatotomato.json').then(function(response) {
     //   return response.json();
