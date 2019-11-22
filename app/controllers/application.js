@@ -7,12 +7,16 @@ export default Controller.extend({
     firebaseApp: service(),
     actions: {
         logout() {
-            return this.get('session').invalidate();
+            return this.get('session').invalidate().then(() => {
+                this.store.unloadAll();
+            })
         },
         async login() {
             const auth = await this.get('firebaseApp').auth();
             const provider = new firebase.auth.GoogleAuthProvider();
-            return auth.signInWithPopup(provider);
+            return auth.signInWithPopup(provider).then((user) => {
+                window.location.reload();
+            });
         }
     }
 });

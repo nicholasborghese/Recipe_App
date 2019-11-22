@@ -1,5 +1,9 @@
-{{#each model as |favorite|}}
-<p>
-    {{favorite.label}}
-</p>
-{{/each}}
+
+    {{#each model as |favorite|}}
+    <p>
+        {{favorite.label}}
+    </p>
+    {{else}}
+        <p>Nuthin'</p>
+    {{/each}}
+

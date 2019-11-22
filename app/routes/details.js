@@ -1,6 +1,7 @@
 import Route from '@ember/routing/route';
 import fetch from 'fetch';
 import ENV from 'finalpro/config/environment';
+import RSVP from 'rsvp';
 
 export default Route.extend({
   model(params) {

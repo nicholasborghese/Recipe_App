@@ -4,7 +4,6 @@ export default Controller.extend({
     actions:{
         save(){
             alert('Saved to favorites');
-            debugger;
             const newFavorite = this.store.createRecord('favorites',{
                 label: this.get('model.label'),
                 uri: this.get('model.uri'),
