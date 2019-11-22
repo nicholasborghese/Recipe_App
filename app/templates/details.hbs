@@ -2,8 +2,12 @@
 
 <div class="details-container">
     <div class="details-info-container1">
-        <button class="save">Save 👍🏼</button>
-        <button class="unsave">Unsave 👎🏼</button>
+        
+            {{#if model.favorites}}
+            <button class="unsave" {{action "unsave"}}>Unsave 📤</button>
+            {{else}}
+            <button class="save" {{action "save"}}>Save 📥</button>
+            {{/if}}
 
         <h2>{{model.label}}</h2>
         <ul>
@@ -21,11 +25,3 @@
         <h3>Time: {{model.totalTime}} Minutes</h3>
     </div>
 </div>
-
-{{#if session.isAuthenticated}}
-    {{#if model.favorites}}
-        <button class="unsave" {{action "unsave"}}>Unsave</button>
-    {{else}}
-        <button class="save" {{action "save"}}>Save</button>
-    {{/if}}
-{{/if}}

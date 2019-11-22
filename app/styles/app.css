@@ -3,10 +3,11 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin: 0px;
 }
 
 /**************application.hbs******************/
-nav{ 
+nav{ /*Navigation Bar*/
     background-color: darkcyan;
     margin: 0px;
     width: 100%;
@@ -17,7 +18,7 @@ nav{
     align-items: center;
 }
 
-.navitem{
+.navitem{ /*Links in the Navigation bar*/
     font-size: medium;
     color: white;
     text-decoration: none;
@@ -25,16 +26,13 @@ nav{
     padding: 5px;
 }
 
-.navitem:hover{
+.navitem:hover{ /*Hover on navigation bar items*/
     background-color: white;
     color: darkcyan;
 }
 
-.g-logo{
+.g-logo{ /*Google logo picture*/
     height: 30px;
-    /* border: solid;
-    border-color: green;
-    padding: 0; */
 }
 
 .sign-in-button{/*Sign in button*/
@@ -50,7 +48,7 @@ nav{
     animation: myanimation 2s infinite;
 }
 
-.sign-out-button{
+.sign-out-button{ /*Sign out button display*/
     background-color: aliceblue;
     border: solid;
     border-radius: 10px;
@@ -59,7 +57,7 @@ nav{
     padding: 0;
 }
 
-.sign-in-name{
+.sign-in-name{ /*Signed in name display*/
     font-family: 'Calistoga', cursive;
     color: white;
     text-decoration: underline;
@@ -100,7 +98,7 @@ nav{
     border-radius: 25px;
 }
 
-input{
+input{ /*Ingredients input box*/
     border-radius: 5px;
     background-color: lightblue;
     color: black;
@@ -111,7 +109,7 @@ input::placeholder{
     color: gray;
 }
 
-select{
+select{ /*Dropdown box*/
     border-radius: 5px;
     background-color: lightblue;
     font-family: 'Acme', sans-serif;
@@ -125,7 +123,7 @@ select{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.search-button{
+.search-button{ /*Form search button*/
     background-color: lightblue;
     font-weight: bold;
     color:black;
@@ -153,7 +151,7 @@ select{
     background-color: rgba(255, 255, 255, 0.85);
 }
 
-.formtwo li {
+.formtwo li { /*Display of form items*/
     display: inline-block;
     list-style-image: none;
 }
@@ -222,7 +220,7 @@ select{
 /**********************************************/
 
 /*****************details.hbs*****************/
-.details-container{
+.details-container{ /*Container for details display*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -234,15 +232,15 @@ select{
     width: 70%;
 }
 
-.details-info-container1{
+.details-info-container1{ /*Name and Ingredients of specific item*/
     flex-direction: column;
 }
 
-.details-info-container2{
+.details-info-container2{ /*Calories and Cooking time*/
     flex-direction: column;
 }
 
-.details-image{
+.details-image{ /*Details food image*/
     margin-top: 15px;
     margin-bottom: 10px;
     display: block;
@@ -250,7 +248,7 @@ select{
     margin-right: auto;
 }
 
-.save{
+.save{ /*Favorites save button*/
     background-color: green;
     color: white;
     border: solid;
@@ -259,7 +257,7 @@ select{
     font-weight: bold;
 }
 
-.unsave{
+.unsave{ /*Favorites unsave button*/
     background-color: red;
     color: white;
     border: solid;

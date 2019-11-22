@@ -1,7 +1,7 @@
 <nav class="navbar">
-    <a href="/" class="navitem animated fadeInLeft delay-1s">Home</a>
-    <a href="results" class="navitem animated fadeInLeft delay-1s">About</a>
-    <a href="favorites" class="navitem animated fadeInLeft delay-1s">Favorites</a>
+    <LinkTo class="navitem animated fadeInLeft delay-1s" @route="index">Home</LinkTo>
+    <LinkTo class="navitem animated fadeInLeft delay-1s" @route="application">About</LinkTo>
+    <LinkTo class="navitem animated fadeInLeft delay-1s" @route="favorites">Favorites</LinkTo>
 
 {{#if session.isAuthenticated}}
   <p class="sign-in-name">Logged in as {{ session.data.authenticated.user.displayName }}</p>
