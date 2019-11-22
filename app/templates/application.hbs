@@ -1,14 +1,14 @@
 <nav class="navbar">
-    <a href="/" class="navitem">Home</a>
-    <a href="results" class="navitem">About</a>
-    <a href="details" class="navitem">Details Dummy</a>
-    <a href="favorites" class="navitem">Favorites</a>
+    <a href="/" class="navitem animated fadeInLeft delay-1s">Home</a>
+    <a href="results" class="navitem animated fadeInLeft delay-1s">About</a>
+    <a href="details" class="navitem animated fadeInLeft delay-1s">Details</a>
+    <a href="favorites" class="navitem animated fadeInLeft delay-1s">Favorites</a>
 
 {{#if session.isAuthenticated}}
-  Logged in as {{ session.data.authenticated.user.displayName }}
-  <button class="sign-out-button" {{action "logout"}}>Sign out</button>
+  <p>Logged in as {{ session.data.authenticated.user.displayName }}</p>
+  <button class="sign-out-button" {{action "logout"}}><img src="/assets/google.png" class="g-logo"></button>
 {{else}}
-  <button class="sign-in-button" {{action "login"}}>Sign in with Google</button>
+  <button class="sign-in-button animated fadeInLeft delay-1s" {{action "login"}}><img src="/assets/google.png" class="g-logo"></button>
 {{/if}}</nav>
 
 <footer class="foot">Footer</footer>
