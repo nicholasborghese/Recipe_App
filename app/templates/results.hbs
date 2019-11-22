@@ -56,7 +56,9 @@
 <div class="results">
     {{#each this.model.hits as |recipe|}}
         <div class="resitem">
-            <img class="resultimg" src={{recipe.recipe.image}} alt="100 x 100">
+            <LinkTo @route="details" @model={{recipe.recipe.uri}}>
+                <img class="resultimg" src={{recipe.recipe.image}} alt="100 x 100">
+            </LinkTo>
             <h4 class="resultname">{{recipe.recipe.label}}</h4>
             <p class="resulting">Ingredients: 
                 <ul>
@@ -64,7 +66,6 @@
                         <li>{{ingredient}}</li>                      
                     {{/each}}
                 </ul>
-                {{!-- {{recipe.recipe.ingredientLines}} --}}
             </p>
             <p class="calories">Calories: {{round-calories recipe.recipe.calories}}</p>
         </div>

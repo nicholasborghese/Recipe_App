@@ -8,7 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('results');
-  this.route('details');
+  this.route('details', {path: 'detail/:uri'});
   this.route('favorites');
 });
 

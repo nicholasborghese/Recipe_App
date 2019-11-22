@@ -1,23 +1,24 @@
-<img src="https://placehold.it/300/300" alt="100 x 100" class="details-image">
+<img src={{model.image}} alt="100 x 100" class="details-image">
 
 <div class="details-container">
     <div class="details-info-container1">
         <button class="save">Save 👍🏼</button>
         <button class="unsave">Unsave 👎🏼</button>
 
-        <h2>Food Titleeeeeeeeeeeeeeeeeeee</h2>
+        <h2>{{model.label}}</h2>
         <ul>
-        <li>h</li>
-        <li>h</li>
-        <li>h</li>
-        <li>h</li> 
+            {{#each model.ingredients as |ingredient|}}
+                <li>{{ingredient.text}}</li>
+            {{/each}}
         </ul>
 
-        <button class="cooking-instruction-but">Cooking Instructions 🥘</button>
+        <button class="cooking-instruction-but">
+            <a href={{model.url}} target="_blank">Cooking Instructions 🥘</a>
+        </button>
     </div>
     <div class="details-info-container2">
-        <h3>Calories: 5246</h3>
-        <h3>Time: Forever</h3>
+        <h3>Calories: {{round-calories model.calories}}</h3>
+        <h3>Time: {{model.totalTime}} Minutes</h3>
     </div>
 </div>
 
