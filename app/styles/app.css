@@ -5,11 +5,12 @@ body{
     background-attachment: fixed;
 }
 
-/*application.hbs*/
-.navbar{ 
+/**************application.hbs******************/
+nav{ 
     background-color: darkcyan;
     margin: 0px;
     width: 100%;
+    padding: 5px 0px;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
@@ -58,6 +59,13 @@ body{
     padding: 0;
 }
 
+.sign-in-name{
+    font-family: 'Calistoga', cursive;
+    color: white;
+    text-decoration: underline;
+    font-size: small;
+}
+
 .foot{ /*footer css*/
     background-color: darkcyan;
     color: white;
@@ -70,9 +78,9 @@ body{
     z-index: 100%;
     margin-top: 10px;
 }
-/**/
+/**********************************************/
 
-/*index.hbs*/
+/******************index.hbs******************/
 .container{ /*container for the fridge and form*/
     position: relative;
     text-align: center;
@@ -133,15 +141,16 @@ select{
     color: white;
 
 }
-/**/
+/**********************************************/
 
-/*results.hbs*/
+/******************results.hbs****************/
 .form2{ /*horizontal form below the header*/
     margin-top: 10px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 .formtwo li {
@@ -166,10 +175,6 @@ select{
 .mealtype{ /*mealtype label and input*/
     order: 4;
     margin-right: 5px;
-}
-
-.submit2{ /*submit button*/
-    order: 5;
 }
 
 .results{ /*all results container*/
@@ -214,9 +219,9 @@ select{
     flex: 1 1 0px;
     justify-content: flex-end;
 }
-/**/
+/**********************************************/
 
-/*details.hbs*/
+/*****************details.hbs*****************/
 .details-container{
     display: flex;
     flex-direction: row;
@@ -271,17 +276,28 @@ select{
     border-radius: 5px;
     border-color: darkcyan;
 }
-/**/
+/**********************************************/
 
-/*media query*/
+/*******************media query***************/
 @media only screen and (max-width: 450px){
+    .navbar{
+        padding: 0;
+    }
+
+    .sign-in-name{
+        margin: 7px 0px;;
+    }
+
+    .options{
+        font-size: medium;
+    }
+    
     .img{
         width: 70%;
     }
     
     .form2{
         flex-direction: column;
-        background-color: rgba(255, 255, 255, 0.85);
     }
 
     .formtwo li{
@@ -302,6 +318,7 @@ select{
         width: 90%;
     }
 }
+/**********************************************/
 
 @keyframes myanimation {
     0% {border-color: blue;}

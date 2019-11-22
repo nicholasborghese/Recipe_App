@@ -5,7 +5,7 @@
     <a href="favorites" class="navitem animated fadeInLeft delay-1s">Favorites</a>
 
 {{#if session.isAuthenticated}}
-  <p>Logged in as {{ session.data.authenticated.user.displayName }}</p>
+  <p class="sign-in-name">Logged in as {{ session.data.authenticated.user.displayName }}</p>
   <button class="sign-out-button" {{action "logout"}}><img src="/assets/google.png" class="g-logo"></button>
 {{else}}
   <button class="sign-in-button animated fadeInLeft delay-1s" {{action "login"}}><img src="/assets/google.png" class="g-logo"></button>
