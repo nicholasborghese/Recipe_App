@@ -29,6 +29,7 @@ nav{ /*Navigation Bar*/
 .navitem:hover{ /*Hover on navigation bar items*/
     background-color: white;
     color: darkcyan;
+    border-radius: 5px;
 }
 
 .g-logo{ /*Google logo picture*/
@@ -42,10 +43,6 @@ nav{ /*Navigation Bar*/
     border-color: lime;
     cursor: pointer;
     padding: 0;
-}
-
-.sign-in-button:hover{
-    animation: myanimation 2s infinite;
 }
 
 .sign-out-button{ /*Sign out button display*/
@@ -139,6 +136,31 @@ select{ /*Dropdown box*/
     color: white;
 
 }
+
+details{
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+}
+
+.instructions{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.instruction-list{
+    font-family: 'Acme', sans-serif;
+}
+
+.instruction-list li{
+    margin-bottom: 5px;
+}
 /**********************************************/
 
 /******************results.hbs****************/
@@ -149,6 +171,7 @@ select{ /*Dropdown box*/
     flex-direction: row;
     flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.85);
+    width: auto;
 }
 
 .formtwo li { /*Display of form items*/
@@ -157,21 +180,14 @@ select{ /*Dropdown box*/
 }
 
 .ing{/*ingredient label and input*/
-    order: 1;
     margin-right: 5px;
 }
 
-.allergies{ /*allergy label and input*/
-    order: 2;
-}
-
 .diet{ /*diet label and input*/
-    order: 3;
     margin-right: 5px;
 }
 
 .mealtype{ /*mealtype label and input*/
-    order: 4;
     margin-right: 5px;
 }
 
@@ -179,9 +195,9 @@ select{ /*Dropdown box*/
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.85);
     width: 70%;/**/
 }
 
@@ -190,14 +206,19 @@ select{ /*Dropdown box*/
     flex-direction: row;
     margin-top: 10px;
     flex: 1 1 0px;
-    border-bottom: dotted;
+    border: solid;
     border-color: black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 .resultimg{ /*specific result image*/
     order: 1;
+    margin-top: 5px;
+    margin-left: 5px;
     margin-right: 5px;
     height: 200px;
+    width: 250px;
     flex: 1 1 0px;
 }
 
@@ -205,17 +226,20 @@ select{ /*Dropdown box*/
     order: 2;
     margin-right: 5px;
     flex: 1 1 0px;
+    font-family: 'Alatsi', sans-serif;
+    text-decoration: underline;
 }
 
 .resulting{ /*specific result ingredients*/
     order: 3;
     flex: 1 1 0px;
+    font-family: 'Acme', sans-serif;
 }
 
 .calories{ /*specific result calories*/
     order: 4;
     flex: 1 1 0px;
-    justify-content: flex-end;
+    font-family: 'Acme', sans-serif;
 }
 /**********************************************/
 
@@ -226,10 +250,14 @@ select{ /*Dropdown box*/
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
     padding: 5px;
     justify-content: space-around;
     background-color: rgba(255, 255, 255, 0.85);
     width: 70%;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
 }
 
 .details-info-container1{ /*Name and Ingredients of specific item*/
@@ -238,6 +266,11 @@ select{ /*Dropdown box*/
 
 .details-info-container2{ /*Calories and Cooking time*/
     flex-direction: column;
+    font-family: 'Acme', sans-serif;
+}
+
+.details-title{
+    font-family: 'Alatsi', sans-serif;
 }
 
 .details-image{ /*Details food image*/
@@ -276,8 +309,28 @@ select{ /*Dropdown box*/
 }
 /**********************************************/
 
+/************about.hbs********************/
+
+.presentation-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+iframe{
+    height: 500px;
+    width: 800px;
+    display: inline-block;
+}
+/**********************************************/
+
 /*******************media query***************/
 @media only screen and (max-width: 450px){
+    body{
+        background-image: url("/assets/background2.jpg");        
+    }
+
+    /*application.hbs*/
     .navbar{
         padding: 0;
     }
@@ -286,6 +339,9 @@ select{ /*Dropdown box*/
         margin: 7px 0px;;
     }
 
+    /************************/
+
+    /*index.hbs*/
     .options{
         font-size: medium;
     }
@@ -293,7 +349,13 @@ select{ /*Dropdown box*/
     .img{
         width: 70%;
     }
+
+    details{
+        width: 90%;
+    }
+    /****************************/
     
+    /*results.hbs*/
     .form2{
         flex-direction: column;
     }
@@ -311,16 +373,62 @@ select{ /*Dropdown box*/
         flex-wrap: wrap;
     }
 
+    .resultimg-box{
+        display: flex;
+        align-content: center;
+    }
+
+    .resultname{
+        text-align: center;
+    }
+
+    .resulting, .calories{
+        margin-left: 5px;
+    }
+    /*****************************/
+
+    /***********details.hbs*********/
     .details-container{
         flex: 1 1 0px;
         width: 90%;
     }
+    /******************************/
+
+    /**********about.hbs***********/
+    iframe{
+        width: 100%;
+    }
+    /*******************************************/
 }
 /**********************************************/
 
-@keyframes myanimation {
-    0% {border-color: blue;}
-    25% {border-color: red}
-    50% {border-color:goldenrod;}
-    75% {border-color: green;}
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    border-top: solid;
+    border-right: solid;
+    border-left: solid;
+    border-color: black;
+    border-radius: 3px;
+}
+#back2Top:hover {
+    background-color: white;
+    color: darkcyan;
 }

@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('results');
   this.route('details', {path: 'detail/:uri'});
   this.route('favorites');
+  this.route('about');
 });
 
 export default Router;

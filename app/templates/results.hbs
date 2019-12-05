@@ -2,14 +2,14 @@
     <ul class="formtwo">
     <li>
         <div class="ing">
-            <label for="ing">Ingredients: </label>
+            <label for="ing" class="options">Ingredients: </label>
             <Input @value={{term}} @placeholder="chicken, rice, cucumber..." id="ing"/>
         </div>
     </li>
 
     <li>
         <div class="allergies">
-            <label for="allergies">Allergies: </label>
+            <label for="allergies" class="options">Allergies: </label>
             <select id="allergies" onchange={{action "changeHealth" value="target.value"}}>
                 <option selected>--Select--</option>
                 <option value="vegan">Vegan</option>
@@ -24,7 +24,7 @@
     
     <li>
         <div class="diet">
-            <label for="diet">Diet: </label>
+            <label for="diet" class="options">Diet: </label>
             <select id="diet" onchange={{action "changeDiet" value="target.value"}}>
                 <option selected>--Select--</option>
                 <option value="balanced">Balanced</option>
@@ -37,7 +37,7 @@
 
     <li>
         <div class="mealtype">
-        <label for="mealtype">Meal Type: </label>
+        <label for="mealtype" class="options">Meal Type: </label>
         <select id="mealtype" onchange={{action "changeCookTime" value="target.value"}}>
             <option selected disabled>--Select--</option>
             <option value="1-30">1-30 mins</option>
@@ -56,7 +56,7 @@
 <div class="results">
     {{#each this.model.hits as |recipe|}}
         <div class="resitem">
-            <LinkTo @route="details" @model={{recipe.recipe.uri}}>
+            <LinkTo @route="details" @model={{recipe.recipe.uri}} class="resultimg-box">
                 <img class="resultimg" src={{recipe.recipe.image}} alt="100 x 100">
             </LinkTo>
             <h4 class="resultname">{{recipe.recipe.label}}</h4>

@@ -9,8 +9,8 @@
             <button class="save" {{action "save"}}>Save 📥</button>
             {{/if}}
 
-        <h2>{{model.label}}</h2>
-        <ul>
+        <h2 class="details-title">{{model.label}}</h2>
+        <ul class="resulting">
             {{#each model.ingredients as |ingredient|}}
                 <li>{{ingredient.text}}</li>
             {{/each}}

@@ -1,6 +1,6 @@
 <nav class="navbar">
     <LinkTo class="navitem animated fadeInLeft delay-1s" @route="index">Home</LinkTo>
-    <LinkTo class="navitem animated fadeInLeft delay-1s" @route="application">About</LinkTo>
+    <LinkTo class="navitem animated fadeInLeft delay-1s" @route="about">About</LinkTo>
     <LinkTo class="navitem animated fadeInLeft delay-1s" @route="favorites">Favorites</LinkTo>
 
 {{#if session.isAuthenticated}}
@@ -10,6 +10,10 @@
   <button class="sign-in-button animated fadeInLeft delay-1s" {{action "login"}}><img src="/assets/google.png" class="g-logo"></button>
 {{/if}}</nav>
 
-<footer class="foot">Footer</footer>
+<a id="back2Top" title="Back to top" href="#">&#187;</a>
+
+{{!-- https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/ &#10148; &#187; --}}
+
+<footer class="foot">@Copyright</footer>
 
 {{outlet}}
