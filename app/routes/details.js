@@ -13,7 +13,6 @@ export default Route.extend({
     //   }).then(function(response) {
     //     return response.firstObject;
     //   });
-    debugger;
     return RSVP.hash({
       recipe: fetch(apiwebsite)
         .then(function(response) {
