@@ -1,9 +1,12 @@
-
+    <div class="favorites">
     {{#each model as |favorite|}}
-    <p>
-        {{favorite.label}}
-    </p>
+    <div class="favorites-item">
+        <LinkTo @route="details" @model={{favorite.uri}} class="resultimg-box">
+        <img src={{favorite.image}} alt="100 x 100" class="resultimg">
+        <h3>{{favorite.label}}</h3>
+        </LinkTo>
+    </div>
     {{else}}
         <p>Nuthin'</p>
     {{/each}}
-
+    </div>

@@ -1,4 +1,4 @@
-<img src={{model.image}} alt="100 x 100" class="details-image">
+<img src={{model.recipe.image}} alt="100 x 100" class="details-image">
 
 <div class="details-container">
     <div class="details-info-container1">
@@ -9,19 +9,19 @@
             <button class="save" {{action "save"}}>Save 📥</button>
             {{/if}}
 
-        <h2 class="details-title">{{model.label}}</h2>
+        <h2 class="details-title">{{model.recipe.label}}</h2>
         <ul class="resulting">
-            {{#each model.ingredients as |ingredient|}}
+            {{#each model.recipe.ingredients as |ingredient|}}
                 <li>{{ingredient.text}}</li>
             {{/each}}
         </ul>
 
         <button class="cooking-instruction-but">
-            <a href={{model.url}} target="_blank">Cooking Instructions 🥘</a>
+            <a href={{model.recipe.url}} target="_blank">Cooking Instructions 🥘</a>
         </button>
     </div>
     <div class="details-info-container2">
-        <h3>Calories: {{round-calories model.calories}}</h3>
-        <h3>Time: {{model.totalTime}} Minutes</h3>
+        <h3>Calories: {{round-calories model.recipe.calories}}</h3>
+        <h3>Time: {{model.recipe.totalTime}} Minutes</h3>
     </div>
 </div>

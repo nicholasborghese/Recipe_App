@@ -80,7 +80,22 @@ nav{ /*Navigation Bar*/
     position: relative;
     text-align: center;
     margin: auto;
+}
+
+h1{
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.foodies{
+    font-family: 'Calistoga', cursive;
+}
+
+.foodies span{
+    background-color: rgba(255, 255, 255, 0.90);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
 }
 
 .firstfill{ /*form on top of the fridge*/
@@ -141,7 +156,7 @@ details{
     background-color: rgba(255, 255, 255, 0.85);
     width: 30%;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
     padding-top: 5px;
     padding-bottom: 5px;  
@@ -309,6 +324,27 @@ details{
 }
 /**********************************************/
 
+/*******favorites.hbs************/
+.favorites{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.favorites-item{
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    justify-content: center;
+}
+/******************************/
+
 /************about.hbs********************/
 
 .presentation-div{
@@ -399,6 +435,17 @@ iframe{
         width: 100%;
     }
     /*******************************************/
+
+    /*****favorites.hbs**********/
+    .favorites{
+        flex-direction: column;
+        flex: 1 1 0px;
+    }
+
+    .favorites-item{
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
 }
 /**********************************************/
 

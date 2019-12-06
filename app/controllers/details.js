@@ -5,9 +5,9 @@ export default Controller.extend({
         save(){
             alert('Saved to favorites');
             const newFavorite = this.store.createRecord('favorites',{
-                label: this.get('model.label'),
-                uri: this.get('model.uri'),
-                image: this.get('model.image')
+                label: this.get('model.recipe.label'),
+                uri: this.get('model.recipe.uri'),
+                image: this.get('model.recipe.image')
             });
             newFavorite.save().then(()=> {
                 this.set('model.favorites', newFavorite)
